@@ -1,0 +1,13 @@
+A three-tier architecture is a software architecture pattern where the application is broken down into three logical tiers: the presentation layer, the business logic layer and the data storage layer. This architecture is used in a client-server application such as a web application that has the frontend, the backend and the database. Each of these layers or tiers does a specific task and can be managed independently of each other. This a shift from the monolithic way of building an application where the frontend, the backend and the database are both sitting in one place.
+Amazon Web Service (AWS) is a cloud platform that provides different cloud computing services to their customers. 
+
+Following AWS services required to design and build a three-tier cloud infrastructure: 
+1. Elastic Compute Cloud (EC2) -- > to run frontend, backend services. Also we can deploy our databases on ec2 machine or er can use service AWS RDS, 
+2. Virtual Private Cloud(VPC) --> Pubic and Private Subnets 
+3. Elastic Load Balancer (ELB) --> to distribute the traffice and provide HA.
+
+
+We will create a terraform script to provision above mentioned infrastructure.
+
+
+
